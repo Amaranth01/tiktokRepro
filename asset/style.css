@@ -10,8 +10,13 @@ html {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 50rem;
-    margin-left: 25rem;
+    margin-left: 72rem;
+    margin-top: 0.5rem;
+    width: 74rem;
+}
+
+#imgLogo {
+    width: 14rem;
 }
