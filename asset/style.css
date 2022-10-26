@@ -49,6 +49,7 @@ header {
     border: 1px solid rgba(22, 24, 35, 0.12);
     -webkit-align-items: center;
     border-radius: 2px;
+    margin-left: -9vw;
 }
 
 #co {
@@ -63,5 +64,20 @@ header {
  #points {
      width: 3rem;
      margin-top: 0.5rem;
-     margin-left: -14vw;
+     margin-left: -17vw;
+ }
+
+ #content {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #menuLeft {
+     margin-left: 15.7vw;
+     font-size: 1.6rem;
+     font-weight: bold;
+ }
+
+ #pink {
+     color: rgba(254, 44, 85, 1);
  }
