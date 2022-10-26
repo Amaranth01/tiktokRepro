@@ -62,12 +62,6 @@ header {
     border-radius: 4px;
     padding: 8px;
 }
- #points {
-     width: 3rem;
-     margin-top: 0.5rem;
-     margin-left: -17vw;
-     background-color: transparent;
- }
 
  #content {
      display: flex;
@@ -135,6 +129,16 @@ header {
      padding: 0.35rem;
  }
 
- @media screen and (max-width: 1797px){
+ @media screen and (max-width: 1445px){
+    #center > img {
+        width: 25vw;
+    }
 
+     #count > img {
+         width: 14vw;
+     }
+
+     #sentence {
+         font-size: 1rem;
+     }
  }
