@@ -15,6 +15,7 @@ header {
     margin-left: 15.7vw;
     margin-top: 0.1vw;
     width: 74vw;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07);
 }
 
 #imgLogo {
@@ -65,11 +66,13 @@ header {
      width: 3rem;
      margin-top: 0.5rem;
      margin-left: -17vw;
+     background-color: transparent;
  }
 
  #content {
      display: flex;
      justify-content: space-around;
+     margin-top: 2vw;
  }
 
  #menuLeft {
@@ -78,6 +81,60 @@ header {
      font-weight: bold;
  }
 
+ #menuLeft > div:first-child {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+ }
+
  #pink {
      color: rgba(254, 44, 85, 1);
+ }
+
+ #sentence {
+     color: rgba(22, 24, 35, .5);
+     font-size: 1.3rem;
+     font-weight: normal;
+     width: 28vw;
+     margin-top: 2rem;
+ }
+
+ #center {
+     margin-left: -27vw;
+ }
+
+ #connexion {
+     margin-top: 0.8vw;
+     font-size: 0.8vw;
+     width: 13vw;
+     padding: 1.2rem;
+     font-weight: bold;
+     margin-bottom: 2rem;
+ }
+
+ #connexion, #abo {
+     color: rgba(254, 44, 85, 1);
+     border-color: rgba(254, 44, 85, 1);
+     background-color: rgba(255, 255, 255, 1);
+     border-radius: 4px;
+ }
+
+ #connexion:hover, #abo:hover {
+     background-color: rgba(254, 44, 85, 0.16);
+ }
+
+ #middle {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+ }
+
+ #count {
+     margin-top: 1rem;
+ }
+
+ #abo {
+     margin-left: -16vw;
+     font-size: 1.2rem;
+     padding: 0.35rem;
+ }
+
+ @media screen and (max-width: 1797px){
+
  }
